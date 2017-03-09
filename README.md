@@ -29,7 +29,7 @@ Não consegui fazer um scraper para o portal da prefeitura. O site ter sido feit
 QlickView dificulta muito. 
 
 Entretanto, não é tão demorado fazer o download manual das tabelas. Até agora, 
-fiz apenas para os veículos do tipo "Carro", ams ainda falta fazer para utilitários,
+fiz apenas para os veículos do tipo "Carro", mas ainda falta fazer para utilitários,
 ônibus, caminhões, motos e outros.
 
 Abaixo, mostro como fiz o download manual dos dados. Se alguém quiser contribuir,
