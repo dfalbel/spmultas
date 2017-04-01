@@ -24,7 +24,7 @@ bases <- data_frame(arqs = arqs) %>%
     }
   })))
 bases <- bases %>% unnest(dados)
-bases <- bases %>% filter(!is.na(qtd))
+bases <- bases %>% filter(!is.na(qtd) & !is.na(data))
 carros_eletronicas <- bases %>%
   mutate(
     hora = str_match(arqs, "([0-9]{2}).xls")[,2] %>% as.integer(),
